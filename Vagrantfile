@@ -36,6 +36,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provision "ansible" do |ansible|
-    ansible.playbook = "elk.yml"
+    ansible.playbook = "elk-vagrant.yml"
   end
 end
