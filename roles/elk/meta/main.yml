@@ -1,0 +1,9 @@
+---
+
+dependencies:
+  - { role: network-manager }
+  - { role: java7 }
+  - { role: elasticsearch }
+  - { role: logstash }
+  - { role: logstash_forwarder }
+  - { role: kibana }
