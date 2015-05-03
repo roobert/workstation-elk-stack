@@ -3,5 +3,5 @@
 dependencies:
   - { role: elasticsearch }
   - { role: logstash }
-  - { role: logstash_forwarder }
+  - { role: logstash-forwarder }
   - { role: kibana }

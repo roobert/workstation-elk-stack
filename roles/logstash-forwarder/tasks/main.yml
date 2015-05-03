@@ -13,7 +13,7 @@
 
 - name: logstash logstash-forwarder input config
   copy:
-    src=roles/logstash_forwarder/files/conf.d/
+    src=roles/logstash-forwarder/files/conf.d/
     dest=/etc/logstash/conf.d/
   notify: restart logstash
 
