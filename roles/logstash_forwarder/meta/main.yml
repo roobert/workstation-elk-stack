@@ -1,0 +1,5 @@
+---
+
+dependencies:
+  - { role: java7 }
+  - { role: logstash }
