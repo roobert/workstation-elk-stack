@@ -1,0 +1,7 @@
+---
+
+dependencies:
+  - { role: elasticsearch }
+  - { role: logstash }
+  - { role: logstash-forwarder }
+  - { role: kibana }

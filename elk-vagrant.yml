@@ -1,8 +1,7 @@
 ---
 
 - name: deploy elk stack
-  hosts: localhost
-  connection: local
+  hosts: default
   sudo: true
   roles:
     - elk

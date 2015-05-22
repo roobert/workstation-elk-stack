@@ -1,0 +1,7 @@
+---
+
+- name: package
+  apt:
+    name=network-manager
+    state=present
+  notify: restart network-manager
